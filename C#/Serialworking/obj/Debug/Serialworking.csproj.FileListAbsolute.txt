@@ -1,0 +1,7 @@
+C:\Users\rylan\OneDrive\Desktop\SeniorProject\C#\Serialworking\bin\Debug\Serialworking.exe.config
+C:\Users\rylan\OneDrive\Desktop\SeniorProject\C#\Serialworking\bin\Debug\Serialworking.exe
+C:\Users\rylan\OneDrive\Desktop\SeniorProject\C#\Serialworking\bin\Debug\Serialworking.pdb
+C:\Users\rylan\OneDrive\Desktop\SeniorProject\C#\Serialworking\obj\Debug\Serialworking.csprojAssemblyReference.cache
+C:\Users\rylan\OneDrive\Desktop\SeniorProject\C#\Serialworking\obj\Debug\Serialworking.csproj.CoreCompileInputs.cache
+C:\Users\rylan\OneDrive\Desktop\SeniorProject\C#\Serialworking\obj\Debug\Serialworking.exe
+C:\Users\rylan\OneDrive\Desktop\SeniorProject\C#\Serialworking\obj\Debug\Serialworking.pdb
