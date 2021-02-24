@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
--- Date        : Mon Jan 18 11:46:01 2021
+-- Date        : Mon Feb 22 13:49:48 2021
 -- Host        : LAPTOP-Q3NGNHTM running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               c:/Users/rylan/OneDrive/Desktop/SeniorProject/vga/vga.srcs/sources_1/ip/vga_clk/vga_clk_sim_netlist.vhdl
+--               c:/Users/rylan/OneDrive/Desktop/SeniorProject/SDP/VHDL/FullSystem/source/ipcores/clocks/vga_clk_sim_netlist.vhdl
 -- Design      : vga_clk
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.

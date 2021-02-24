@@ -9,8 +9,21 @@ public class PortChat
 
     public static void Main()
     {
-        string[] ATcommands = { "AT\r\n", "AT+RST\r\n", "AT+CWMODE=3\r\n","AT+CWJAP?\r\n", "AT+CWLAP\r\n" };
-        string name;
+        string[] ATcommands = { "AT\r\n",
+            "AT+RST\r\n", 
+            //"AT+CWMODE=3\r\n",
+        "AT+CWJAP=\"SpectrumSetup-10\",\"olivecountry233\"\r\n",
+          //  "AT+CIPSTA?\r\n",
+          //  "AT+CIPAP?\r\n",
+        "AT+CIPMUX=0\r\n",
+        "AT+CIPSTART=\"TCP\",\"api.thingspeak.com\",80\r\n",
+         //   "AT+CIPSEND=51\r\n",
+        //"GET /update?api_key=LB78Y0ZHK718FCY0=255\r\n",
+        "AT+CIPSEND=60\r\n",
+
+        "GET /update?api_key=LB78Y0ZHK718FCY0&field1=123456789\r\n",
+        "AT+CIPCLOSE\r\n"};
+        //string name;
         string message;
         StringComparer stringComparer = StringComparer.OrdinalIgnoreCase;
         Thread readThread = new Thread(Read);
@@ -58,10 +71,10 @@ public class PortChat
                 {
 
                     int point = Convert.ToInt32(message);
-                    
-                    
+
+
                     _serialPort.WriteLine(ATcommands[point - 1]);
-                    
+
                 }
                 catch
                 {
