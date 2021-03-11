@@ -3705,6 +3705,10 @@ input, select, textarea {
 				width: 100%;
 				height: 100%;
 				border-radius: 0;
+				
+				/* Filter add-on */
+				filter: blur(8px);
+				-webkit-filter: blur(8px);
 			}
 
 		@media screen and (max-width: 1680px) {
