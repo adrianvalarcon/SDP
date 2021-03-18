@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/sim/fifo_generator_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

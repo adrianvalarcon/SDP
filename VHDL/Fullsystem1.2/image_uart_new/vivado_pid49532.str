@@ -1,0 +1,132 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 49532
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Thu Mar 18 11:17:24 PDT 2021
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Kyle
+User home directory: C:/Users/Kyle
+User working directory: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Kyle/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Kyle/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Kyle/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/vivado.log
+Vivado journal file location: 	E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/vivado.jou
+Engine tmp dir: 	E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/.Xil/Vivado-49532-DESKTOP-43OEE1M
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	135 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,024 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\Users\Kyle\Documents\sr_proj_test\SDP\VHDL\image_uart_new\image_uart_new.xpr. Version: Vivado v2020.2 
+// bz (cr):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 112 MB (+114565kb) [00:00:10]
+// [Engine Memory]: 1,024 MB (+922372kb) [00:00:10]
+// WARNING: HEventQueue.dispatchEvent() is taking  2615 ms.
+// Tcl Message: open_project E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 60 MB. Current time: 3/18/21, 11:17:24 AM PDT
+// Project name: image_uart_new; location: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 119 MB (+2153kb) [00:00:18]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: boost::filesystem::remove: The process cannot access the file because it is being used by another process: "E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/simulate.log" 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: boost::filesystem::remove: The process cannot access the file because it is being used by another process: "E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/simulate.log" 
+// HOptionPane Error: 'boost::filesystem::remove: The process cannot access the file because it is being used by another process: "E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_ new/image_uart_new.sim/sim_1/behav/xsim/simulate.log" (Run Simulation)'
+selectButton("OptionPane.button", "OK"); // JButton

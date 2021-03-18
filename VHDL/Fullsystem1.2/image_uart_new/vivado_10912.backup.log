@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 18 11:44:55 2021
+# Process ID: 10912
+# Current directory: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10844 E:\Users\Kyle\Documents\sr_proj_test\SDP\VHDL\image_uart_new\image_uart_new.xpr
+# Log file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/vivado.log
+# Journal file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1
+
+launch_runs synth_1 -jobs 16
+[Thu Mar 18 11:45:20 2021] Launched synth_1...
+Run output will be captured here: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/simulate.log"

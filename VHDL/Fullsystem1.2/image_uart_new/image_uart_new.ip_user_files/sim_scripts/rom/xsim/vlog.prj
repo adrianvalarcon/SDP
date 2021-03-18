@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/sim/rom.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

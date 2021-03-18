@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar 12 13:40:43 2021
+# Process ID: 12240
+# Current directory: E:/Users/Kyle/Documents/sr_proj_test/image_uart_new/image_uart_new.runs/instructionlist_synth_1
+# Command line: vivado.exe -log instructionlist.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source instructionlist.tcl
+# Log file: E:/Users/Kyle/Documents/sr_proj_test/image_uart_new/image_uart_new.runs/instructionlist_synth_1/instructionlist.vds
+# Journal file: E:/Users/Kyle/Documents/sr_proj_test/image_uart_new/image_uart_new.runs/instructionlist_synth_1\vivado.jou
+#-----------------------------------------------------------
+source instructionlist.tcl -notrace

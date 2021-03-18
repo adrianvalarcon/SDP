@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Fullsystem1.1/source/FinalSDP.gen/sources_1/ip/uartloader_fifo/uartloader_fifo_sim_netlist.v" \
+"../../../../../Fullsystem1.1/source/FinalSDP.gen/sources_1/ip/instructionlist/instructionlist_sim_netlist.v" \
+"../../../../../Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk_sim_netlist.v" \
+"../../../../../Fullsystem1.1/source/ipcores/ipcores/vga/fifo/sim/fifo_generator_0.v" \
+"../../../../../Fullsystem1.1/source/ipcores/ipcores/vga/rom/sim/rom.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

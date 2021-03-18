@@ -1,0 +1,214 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 13 23:46:03 2021
+# Process ID: 14248
+# Current directory: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33216 E:\Users\Kyle\Documents\sr_proj_test\SDP\VHDL\image_uart_new\image_uart_new.xpr
+# Log file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/vivado.log
+# Journal file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Users/Kyle/Documents/sr_proj_test/image_uart_new' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.gen/sources_1', nor could it be found using path 'E:/Users/Kyle/Documents/sr_proj_test/image_uart_new/image_uart_new.gen/sources_1'.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/twoto1mux.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/twoto1mux.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/mux64x1.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/mux64x1.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/bigcountdown.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/bigcountdown.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/baud_gen.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/baud_gen.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/fifo.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/fifo.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/vga_position_controller.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_position_controller.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/uart_rx.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_rx.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/uart_tx.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_tx.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/uart.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/ATcommands.coe'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/ATcommands.coe' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/screen.coe'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/screen.coe' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/sim/command_tb_real.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/sim/command_tb_real.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/uartloader_fifo/uartloader_fifo.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/uartloader_fifo/uartloader_fifo.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/twoto1mux.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/twoto1mux.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/mux64x1.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/mux64x1.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/bigcountdown.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/bigcountdown.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/baud_gen.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/baud_gen.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/fifo.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/fifo.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/vga_position_controller.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_position_controller.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/uart_rx.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_rx.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/uart_tx.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_tx.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/uart.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/ATcommands.coe'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/ATcommands.coe' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/screen.coe'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/memory/screen.coe' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/uartloader_fifo/uartloader_fifo.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/uartloader_fifo/uartloader_fifo.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/uartloader_fifo/uartloader_fifo.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/uartloader_fifo/uartloader_fifo.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci' instead.
+WARNING: [Project 1-312] File not found as 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci'; using path 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1018.133 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'command_tb_real' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/instructionlist.mif'
+INFO: [SIM-utils-43] Exported 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/ATcommands.coe'
+INFO: [SIM-utils-43] Exported 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/screen.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj command_tb_real_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj command_tb_real_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim'
+"xelab -wto ba14f7b4c19844af91c6930d84910655 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot command_tb_real_behav xil_defaultlib.command_tb_real xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ba14f7b4c19844af91c6930d84910655 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_5 -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot command_tb_real_behav xil_defaultlib.command_tb_real xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_axi_regs_fwd_v8_4(C_DATA...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.rom
+Compiling architecture behavioral of entity xil_defaultlib.d_ff_generic [\d_ff_generic(n=1)\]
+Compiling architecture behavioral of entity xil_defaultlib.d_ff_generic [\d_ff_generic(n=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.vga_position_controller [vga_position_controller_default]
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_sync_stag...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_bhv_ver_a...
+Compiling module fifo_generator_v13_2_5.fifo_generator_v13_2_5_CONV_VER(...
+Compiling module fifo_generator_v13_2_5.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=47.25...
+Compiling module xil_defaultlib.vga_clk_vga_clk_clk_wiz
+Compiling module xil_defaultlib.vga_clk
+Compiling architecture behavioral of entity xil_defaultlib.vga_multiclock_wrapper [vga_multiclock_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.baud_gen [baud_gen_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart_rx [uart_rx_default]
+Compiling architecture behavioral of entity xil_defaultlib.fifo [\fifo(w=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.uart_tx [uart_tx_default]
+Compiling architecture behavioral of entity xil_defaultlib.uart [uart_default]
+Compiling architecture behavioral of entity xil_defaultlib.twoto1mux [twoto1mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux64x1 [mux64x1_default]
+Compiling architecture behavioral of entity xil_defaultlib.bigcountdown [bigcountdown_default]
+Compiling architecture behavioral of entity xil_defaultlib.FIFO_loader [fifo_loader_default]
+Compiling architecture behavioral of entity xil_defaultlib.pixel_configure [pixel_configure_default]
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,DOB_REG=1,INI...
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,DOB_REG=1,INI...
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,DOB_REG=1,INI...
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,DOB_REG=1,INI...
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,DOB_REG=1,INI...
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,DOB_REG=1,INI...
+Compiling module xil_defaultlib.instructionlist
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDSE_default
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.RAM64M
+Compiling module unisims_ver.RAM64X1D
+Compiling module unisims_ver.MUXF7
+Compiling module xil_defaultlib.uartloader_fifo
+Compiling architecture behavioral of entity xil_defaultlib.system_wrapper [system_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.command_tb_real
+Built simulation snapshot command_tb_real_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim/xsim.dir/command_tb_real_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 13 23:46:43 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 1018.133 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '14' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "command_tb_real_behav -key {Behavioral:sim_1:Functional:command_tb_real} -tclbatch {command_tb_real.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source command_tb_real.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module command_tb_real.UUT.image.inst.\native_mem_module.blk_mem_gen_v8_4_4_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'command_tb_real_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1018.133 ; gain = 0.000
+open_wave_config E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/command_tb_real_behav.wcfg
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 13 23:47:32 2021...

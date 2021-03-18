@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/twoto1mux.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/mux64x1.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/bigcountdown.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/baud_gen.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/fifo.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/vga_position_controller.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/uart_rx.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/uart_tx.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/uart.vhd" \
+"../../../../../SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

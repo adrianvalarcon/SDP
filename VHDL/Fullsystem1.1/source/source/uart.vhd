@@ -33,7 +33,6 @@ entity uart is
     DVSR_bit: integer := 6;     -- # bits of DVSR
     FIFO_w  : integer := 2      -- # FIFO address bits/# words in FIFO 
     );
-    
     port(
         clk     : in  std_logic;
         reset   : in  std_logic;

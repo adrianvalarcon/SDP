@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 18 12:22:30 2021
+# Process ID: 20540
+# Current directory: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1
+# Command line: vivado.exe -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/system_wrapper.vds
+# Journal file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

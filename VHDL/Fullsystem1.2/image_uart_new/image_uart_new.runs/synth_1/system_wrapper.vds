@@ -1,0 +1,424 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 18 12:22:30 2021
+# Process ID: 20540
+# Current directory: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1
+# Command line: vivado.exe -log system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_wrapper.tcl
+# Log file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/system_wrapper.vds
+# Journal file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace
+Command: synth_design -top system_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18508
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1016.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_wrapper' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd:40]
+INFO: [Synth 8-3491] module 'rom' declared at 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/rom_stub.v:6' bound to instance 'image' of component 'rom' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd:113]
+INFO: [Synth 8-6157] synthesizing module 'rom' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/rom_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom' (1#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/rom_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'vga_multiclock_wrapper' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'vga_position_controller' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_position_controller.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'vga_position_controller' (2#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_position_controller.vhd:45]
+INFO: [Synth 8-3491] module 'fifo_generator_0' declared at 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/fifo_generator_0_stub.v:6' bound to instance 'pixelholder' of component 'fifo_generator_0' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd:131]
+INFO: [Synth 8-6157] synthesizing module 'fifo_generator_0' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_generator_0' (3#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/fifo_generator_0_stub.v:6]
+INFO: [Synth 8-3491] module 'vga_clk' declared at 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/vga_clk_stub.v:5' bound to instance 'clock_for_vga' of component 'vga_clk' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd:147]
+INFO: [Synth 8-6157] synthesizing module 'vga_clk' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/vga_clk_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'vga_clk' (4#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/vga_clk_stub.v:5]
+WARNING: [Synth 8-614] signal 'reset' is read in the process but is not in the sensitivity list [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'd_ff_generic' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd:41]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'd_ff_generic' (5#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'd_ff_generic__parameterized0' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd:41]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'd_ff_generic__parameterized0' (5#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/d_ff_generic.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'vga_multiclock_wrapper' (6#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'uart' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart.vhd:50]
+	Parameter D_bit bound to: 8 - type: integer 
+	Parameter SB_tick bound to: 16 - type: integer 
+	Parameter DVSR bound to: 55 - type: integer 
+	Parameter DVSR_bit bound to: 6 - type: integer 
+	Parameter FIFO_w bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'baud_gen' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/baud_gen.vhd:40]
+	Parameter N bound to: 6 - type: integer 
+	Parameter cntr_bits bound to: 55 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'baud_gen' (7#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/baud_gen.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_rx.vhd:42]
+	Parameter D_bit bound to: 8 - type: integer 
+	Parameter SB_tick bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (8#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_rx.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'fifo' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/fifo.vhd:43]
+	Parameter b bound to: 8 - type: integer 
+	Parameter w bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo' (9#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/fifo.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_tx.vhd:42]
+	Parameter D_bit bound to: 8 - type: integer 
+	Parameter SB_tick bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (10#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart_tx.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'uart' (11#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/uart.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'FIFO_loader' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'mux64x1' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/mux64x1.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'twoto1mux' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/twoto1mux.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'twoto1mux' (12#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/twoto1mux.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mux64x1' (13#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/mux64x1.vhd:40]
+WARNING: [Synth 8-614] signal 'data_to_send' is read in the process but is not in the sensitivity list [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd:285]
+WARNING: [Synth 8-614] signal 'instruction' is read in the process but is not in the sensitivity list [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd:307]
+INFO: [Synth 8-638] synthesizing module 'bigcountdown' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/bigcountdown.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'bigcountdown' (14#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/bigcountdown.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'FIFO_loader' (15#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/FIFO_loader.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'pixel_configure' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd:45]
+WARNING: [Synth 8-614] signal 'R1' is read in the process but is not in the sensitivity list [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd:166]
+WARNING: [Synth 8-614] signal 'R2' is read in the process but is not in the sensitivity list [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd:166]
+INFO: [Synth 8-256] done synthesizing module 'pixel_configure' (16#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/pixel_configure.vhd:45]
+INFO: [Synth 8-3491] module 'instructionlist' declared at 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/instructionlist_stub.v:6' bound to instance 'ROM_Instrctions' of component 'instructionlist' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd:181]
+INFO: [Synth 8-6157] synthesizing module 'instructionlist' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/instructionlist_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'instructionlist' (17#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/instructionlist_stub.v:6]
+INFO: [Synth 8-3491] module 'uartloader_fifo' declared at 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/uartloader_fifo_stub.v:6' bound to instance 'UART_LOADER_FIFO' of component 'uartloader_fifo' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd:189]
+INFO: [Synth 8-6157] synthesizing module 'uartloader_fifo' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/uartloader_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'uartloader_fifo' (18#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/.Xil/Vivado-20540-DESKTOP-43OEE1M/realtime/uartloader_fifo_stub.v:6]
+WARNING: [Synth 8-614] signal 'tx_full' is read in the process but is not in the sensitivity list [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd:201]
+WARNING: [Synth 8-614] signal 'fifo_empty' is read in the process but is not in the sensitivity list [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd:201]
+INFO: [Synth 8-256] done synthesizing module 'system_wrapper' (19#1) [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/system_wrapper.vhd:40]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1016.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1016.922 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/FinalSDP.gen/sources_1/ip/uartloader_fifo/uartloader_fifo/uartloader_fifo_in_context.xdc] for cell 'UART_LOADER_FIFO'
+Finished Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/FinalSDP.gen/sources_1/ip/uartloader_fifo/uartloader_fifo/uartloader_fifo_in_context.xdc] for cell 'UART_LOADER_FIFO'
+Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/FinalSDP.gen/sources_1/ip/instructionlist/instructionlist/instructionlist_in_context.xdc] for cell 'ROM_Instrctions'
+Finished Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/FinalSDP.gen/sources_1/ip/instructionlist/instructionlist/instructionlist_in_context.xdc] for cell 'ROM_Instrctions'
+Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'vga/pixelholder'
+Finished Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/fifo/fifo_generator_0/fifo_generator_0_in_context.xdc] for cell 'vga/pixelholder'
+Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom/rom_in_context.xdc] for cell 'image'
+Finished Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom/rom_in_context.xdc] for cell 'image'
+Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk/vga_clk_in_context.xdc] for cell 'vga/clock_for_vga'
+Finished Parsing XDC File [e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk/vga_clk_in_context.xdc] for cell 'vga/clock_for_vga'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1088.117 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1088.117 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'ROM_Instrctions' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'image' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1099.801 ; gain = 82.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1099.801 ; gain = 82.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for i_clk. (constraint file  e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk/vga_clk_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for i_clk. (constraint file  e:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk/vga_clk_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for UART_LOADER_FIFO. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ROM_Instrctions. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vga/pixelholder. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for image. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for vga/clock_for_vga. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1099.801 ; gain = 82.879
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'instruction_reg' in module 'FIFO_loader'
+INFO: [Synth 8-802] inferred FSM for state register 'datastate_reg' in module 'FIFO_loader'
+WARNING: [Synth 8-327] inferring latch for variable 'inc_reg' [E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd:137]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   start |                               01 |                               01
+                    data |                               10 |                               10
+                    stop |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                loadbyte |                               01 |                               01
+                      sn |                               10 |                               10
+                   delay |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'datastate_reg' using encoding 'sequential' in module 'FIFO_loader'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    init |                      00000000001 |                             0000
+                      i1 |                      00000000010 |                             0001
+                      i2 |                      00000000100 |                             0010
+                      i3 |                      00000001000 |                             0011
+                      i4 |                      00000010000 |                             0100
+                      i5 |                      00000100000 |                             0101
+                      i6 |                      00001000000 |                             0110
+                      i7 |                      00010000000 |                             0111
+                    data |                      00100000000 |                             1000
+                      i8 |                      01000000000 |                             1001
+                    idle |                      10000000000 |                             1010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'instruction_reg' using encoding 'one-hot' in module 'FIFO_loader'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1099.801 ; gain = 82.879
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'sm_loader/MUX512x8/smallmux1[25].NUSED.row1muxnu' (twoto1mux) to 'sm_loader/MUX512x8/smallmux1[26].NUSED.row1muxnu'
+INFO: [Synth 8-223] decloning instance 'sm_loader/MUX512x8/smallmux1[25].NUSED.row1muxnu' (twoto1mux) to 'sm_loader/MUX512x8/smallmux1[27].NUSED.row1muxnu'
+INFO: [Synth 8-223] decloning instance 'sm_loader/MUX512x8/smallmux1[25].NUSED.row1muxnu' (twoto1mux) to 'sm_loader/MUX512x8/smallmux1[28].NUSED.row1muxnu'
+INFO: [Synth 8-223] decloning instance 'sm_loader/MUX512x8/smallmux1[25].NUSED.row1muxnu' (twoto1mux) to 'sm_loader/MUX512x8/smallmux1[29].NUSED.row1muxnu'
+INFO: [Synth 8-223] decloning instance 'sm_loader/MUX512x8/smallmux1[25].NUSED.row1muxnu' (twoto1mux) to 'sm_loader/MUX512x8/smallmux1[30].NUSED.row1muxnu'
+INFO: [Synth 8-223] decloning instance 'sm_loader/MUX512x8/smallmux1[25].NUSED.row1muxnu' (twoto1mux) to 'sm_loader/MUX512x8/smallmux1[31].NUSED.row1muxnu'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   19 Bit       Adders := 2     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 6     
++---Registers : 
+	               19 Bit    Registers := 2     
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 11    
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 26    
+	                1 Bit    Registers := 28    
++---Muxes : 
+	   2 Input   31 Bit        Muxes := 2     
+	   2 Input   26 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 6     
+	   2 Input   19 Bit        Muxes := 1     
+	   8 Input   19 Bit        Muxes := 1     
+	   8 Input   12 Bit        Muxes := 2     
+	   4 Input   11 Bit        Muxes := 1     
+	  11 Input   11 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 5     
+	   2 Input    8 Bit        Muxes := 59    
+	   2 Input    6 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 6     
+	   4 Input    4 Bit        Muxes := 2     
+	  11 Input    4 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 3     
+	  11 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 3     
+	   8 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 29    
+	   3 Input    1 Bit        Muxes := 4     
+	   4 Input    1 Bit        Muxes := 31    
+	  11 Input    1 Bit        Muxes := 1     
+	   9 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1099.801 ; gain = 82.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1099.801 ; gain = 82.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1115.168 ; gain = 98.246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++---------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name    | RTL Name                                             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++---------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|system_wrapper | vga/D_gen_sync_delay[19].sync_delay_dff/q_reg[1]     | 20     | 2     | NO           | NO                 | YES               | 0      | 2       | 
+|system_wrapper | vga/D_gen_screen_delay[12].screen_delay_dff/q_reg[0] | 13     | 1     | NO           | NO                 | YES               | 1      | 0       | 
++---------------+------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |rom              |         1|
+|2     |instructionlist  |         1|
+|3     |uartloader_fifo  |         1|
+|4     |fifo_generator_0 |         1|
+|5     |vga_clk          |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |fifo_generator  |     1|
+|2     |instructionlist |     1|
+|3     |rom             |     1|
+|4     |uartloader_fifo |     1|
+|5     |vga_clk         |     1|
+|6     |CARRY4          |    18|
+|7     |LUT1            |     5|
+|8     |LUT2            |    51|
+|9     |LUT3            |    40|
+|10    |LUT4            |    78|
+|11    |LUT5            |    84|
+|12    |LUT6            |   178|
+|13    |MUXF7           |    48|
+|14    |MUXF8           |    24|
+|15    |SRL16E          |     1|
+|16    |SRLC32E         |     2|
+|17    |FDCE            |    60|
+|18    |FDPE            |     2|
+|19    |FDRE            |   176|
+|20    |FDSE            |     5|
+|21    |LDCP            |     1|
+|22    |IBUF            |     1|
+|23    |OBUF            |    15|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 1133.281 ; gain = 33.480
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1133.281 ; gain = 116.359
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1139.145 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 91 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1139.145 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LDCP => LDCP (GND, LDCE, LUT3(x2), VCC): 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+74 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1139.145 ; gain = 122.223
+INFO: [Common 17-1381] The checkpoint 'E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.runs/synth_1/system_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_wrapper_utilization_synth.rpt -pb system_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 18 12:23:05 2021...

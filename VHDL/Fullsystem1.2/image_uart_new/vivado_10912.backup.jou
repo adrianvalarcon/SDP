@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Mar 18 11:44:55 2021
+# Process ID: 10912
+# Current directory: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10844 E:\Users\Kyle\Documents\sr_proj_test\SDP\VHDL\image_uart_new\image_uart_new.xpr
+# Log file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/vivado.log
+# Journal file: E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Users/Kyle/Documents/sr_proj_test/SDP/VHDL/image_uart_new/image_uart_new.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation
+launch_simulation
