@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="rom_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1615585240">
-  <File Type="PA-TCL" Name="rom.tcl"/>
-  <File Type="REPORTS-TCL" Name="rom_reports.tcl"/>
-  <File Type="RDS-RDS" Name="rom.vds"/>
-  <File Type="RDS-UTIL" Name="rom_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="rom_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="rom.dcp"/>
-  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rom">
-    <File Path="$PPRDIR/../Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci">
+<GenRun Id="vga_clk_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1615585240">
+  <File Type="PA-TCL" Name="vga_clk.tcl"/>
+  <File Type="REPORTS-TCL" Name="vga_clk_reports.tcl"/>
+  <File Type="RDS-RDS" Name="vga_clk.vds"/>
+  <File Type="RDS-UTIL" Name="vga_clk_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="vga_clk_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="vga_clk.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/vga_clk">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -15,12 +15,12 @@
       </FileInfo>
     </File>
     <Config>
-      <Option Name="TopModule" Val="rom"/>
+      <Option Name="TopModule" Val="vga_clk"/>
       <Option Name="UseBlackboxStub" Val="1"/>
     </Config>
   </FileSet>
-  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/rom">
-    <File Path="$PPRDIR/../Fullsystem1.1/source/ipcores/ipcores/vga/rom/rom.xci">
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/vga_clk">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/ipcores/ipcores/vga/clocks/vga_clk.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -28,7 +28,7 @@
       </FileInfo>
     </File>
     <Config>
-      <Option Name="TopModule" Val="rom"/>
+      <Option Name="TopModule" Val="vga_clk"/>
       <Option Name="UseBlackboxStub" Val="1"/>
     </Config>
   </FileSet>

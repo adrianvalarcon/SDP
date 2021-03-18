@@ -7,7 +7,7 @@
   <File Type="RDS-UTIL-PB" Name="instructionlist_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="instructionlist.dcp"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/instructionlist">
-    <File Path="$PPRDIR/../Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -20,7 +20,7 @@
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/instructionlist">
-    <File Path="$PPRDIR/../Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/ipcores/ipcores/transmission_system/instructionlist/instructionlist.xci">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

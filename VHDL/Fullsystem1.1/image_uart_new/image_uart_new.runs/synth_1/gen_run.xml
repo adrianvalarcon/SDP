@@ -1,107 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1616095348">
   <File Type="PA-TCL" Name="system_wrapper.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="system_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="system_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="system_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="system_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="system_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="system_wrapper.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="system_wrapper_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="system_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/twoto1mux.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/twoto1mux.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/mux64x1.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/mux64x1.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/bigcountdown.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/bigcountdown.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/FIFO_loader.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/FIFO_loader.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/baud_gen.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/baud_gen.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/d_ff_generic.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/d_ff_generic.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/fifo.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/fifo.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/pixel_configure.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/pixel_configure.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/vga_position_controller.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/vga_position_controller.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/vga_multiclock_wrapper.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/uart_rx.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/uart_rx.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/uart_tx.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/uart_tx.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/uart.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/uart.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/source/system_wrapper.vhd">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/source/system_wrapper.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/ipcores/memory/ATcommands.coe">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/ipcores/memory/ATcommands.coe">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../Fullsystem1.1/source/ipcores/memory/screen.coe">
+    <File Path="$PPRDIR/../../Fullsystem1.1/source/ipcores/memory/screen.coe">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
